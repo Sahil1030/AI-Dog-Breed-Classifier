@@ -16,7 +16,7 @@ client = Groq(
 # model = 'llama-3.2-90b-vision-preview'
 model = 'llama-3.2-11b-vision-preview'
 ninja_api_key = os.environ.get('NINJA_API_KEY')
-image_path = r"C:\Users\Orion\german.jpeg"
+image_path = r"\german.jpeg"
 
 Image(image_path)
 
